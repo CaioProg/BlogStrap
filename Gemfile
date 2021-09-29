@@ -22,6 +22,7 @@ group :development do
   gem 'rack-mini-profiler', '~> 2.0'
   gem 'listen', '~> 3.3'
   gem 'spring'
+  gem "letter_opener", "~> 1.7"
 end
 
 group :test do
@@ -38,4 +39,3 @@ gem "kaminari", "~> 1.2"
 
 gem "devise", "~> 4.8"
 
-gem "letter_opener", "~> 1.7"
